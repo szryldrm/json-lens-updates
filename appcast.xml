@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Json Lens</title>
-        <link>https://github.com/szryldrm/json-lens-updates</link>
+        <link>https://szryldrm.github.io/json-lens-updates/</link>
         <description>Json Lens update feed</description>
         <language>en</language>
+        <!-- CI keeps only the latest 3 <item> entries (newest first).
+             This feed starts empty; the first GitHub-published release will
+             populate it. Forgejo release history is intentionally not
+             migrated here. -->
+        <item>
+            <title>Json Lens 1.0.16</title>
+            <pubDate>Wed, 13 May 2026 15:09:27 +0000</pubDate>
+            <sparkle:version>10016</sparkle:version>
+            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+            <enclosure
+                url="https://github.com/szryldrm/json-lens-updates/releases/download/v1.0.16/Json-Lens-1.0.16.dmg"
+                sparkle:edSignature="EaddeZys0MxumbUeSUh3KTbK2naBsMIgxtcmlqt3o1Cd95Ya6cfN4eKUSoWrelRc4Hp1mY0byT1FvZ5Xm30CDg=="
+                length="2075058"
+                type="application/octet-stream"
+            />
+        </item>
     </channel>
 </rss>
